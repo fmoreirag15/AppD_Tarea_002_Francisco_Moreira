@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
                 obtenerDatosConVolley(txtBuscar.getText().toString());
             }
         });
-        obtenerDatosConVolley("1");
+        obtenerDatosConVolley("2");
     }
     private void obtenerDatosConVolley(String codigo)
     {

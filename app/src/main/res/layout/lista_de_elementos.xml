@@ -14,34 +14,39 @@
         android:layout_height="wrap_content"
         android:animateLayoutChanges="true"
         android:orientation="vertical">
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#FDFDFD"
+            android:backgroundTint="#FFFFFF"
             android:orientation="horizontal"
             android:padding="3dp">
-            
+
             <ImageView
                 android:id="@+id/imagenViewlista"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
                 android:layout_centerVertical="true"
                 android:layout_gravity="center"
                 android:paddingLeft="14dp"
                 android:paddingRight="14dp"
-                app:srcCompat="@drawable/ic_launcher_background"
-                android:layout_alignParentLeft="true"/>
+                app:srcCompat="@drawable/ic_launcher_background" />
+
             <LinearLayout
                 android:id="@+id/linearLayout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
                 android:layout_marginTop="2dp"
                 android:layout_toEndOf="@+id/imagenViewlista"
-                android:orientation="vertical"
-                android:layout_marginLeft="4dp"
-                android:layout_toRightOf="@+id/imagenViewlista">
+                android:layout_toRightOf="@+id/imagenViewlista"
+                android:orientation="vertical">
+
                 <TextView
                     android:id="@+id/txtTitulo"
                     android:layout_width="match_parent"
@@ -50,7 +55,8 @@
                     android:text="Titulo"
                     android:textColor="@color/black"
                     android:textSize="15dp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
+
                 <TextView
                     android:id="@+id/Txtvolumen"
                     android:layout_width="match_parent"
@@ -59,7 +65,8 @@
                     android:text="volumen"
                     android:textColor="#515151"
                     android:textSize="17dp"
-                    android:textStyle="normal"/>
+                    android:textStyle="normal" />
+
                 <TextView
                     android:id="@+id/txtdate_published"
                     android:layout_width="match_parent"
@@ -68,7 +75,8 @@
                     android:text="data"
                     android:textColor="#515151"
                     android:textSize="15dp"
-                    android:textStyle="normal"/>
+                    android:textStyle="normal" />
+
                 <TextView
                     android:id="@+id/txtDoi"
                     android:layout_width="match_parent"
@@ -77,22 +85,23 @@
                     android:text="Doi"
                     android:textColor="#515151"
                     android:textSize="15dp"
-                    android:textStyle="normal"/>
+                    android:textStyle="normal" />
             </LinearLayout>
+
             <TextView
                 android:id="@+id/Txtanio"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="6dp"
                 android:layout_marginRight="6dp"
                 android:text="anio"
                 android:textColor="#515151"
                 android:textSize="15dp"
-                android:textStyle="normal"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentEnd="true"/>
-            
+                android:textStyle="normal" />
+
         </RelativeLayout>
     </LinearLayout>
 </androidx.cardview.widget.CardView>
