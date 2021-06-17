@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     TextView txtBuscar;
     TextView txtInfor;
     Button btnConsultar;
-    //RecyclerView recyclerView2;
+
     List<modelos_revista> datos= new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
