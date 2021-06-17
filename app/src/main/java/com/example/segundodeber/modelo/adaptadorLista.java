@@ -26,7 +26,7 @@ public class adaptadorLista extends RecyclerView.Adapter<adaptadorLista.ViewHold
     @Override
     public  int getItemCount()
     { return Data.size();
-         }
+    }
     @Override
     public adaptadorLista.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType)
     {

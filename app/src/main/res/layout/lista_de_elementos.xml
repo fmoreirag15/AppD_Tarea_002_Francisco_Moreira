@@ -33,7 +33,7 @@
                 android:layout_gravity="center"
                 android:paddingLeft="14dp"
                 android:paddingRight="14dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                app:srcCompat="@android:drawable/btn_star_big_on" />
 
             <LinearLayout
                 android:id="@+id/linearLayout"
